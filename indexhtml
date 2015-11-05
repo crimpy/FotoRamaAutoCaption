@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content=" Fine Jewlery, Mineral, gem, geologist, silver, gold, copper, polished, ring, necklace, pendant, earrings, bracelet, amethyst, quartz, thompsonite, azurite, aquamarine" />
+
+<style>
+ul.nav {list-style: none; border-top: 1px solid #666; margin-bottom: 15px; }
+ul.nav li {border-bottom: 1px solid #666; }
+ul.nav a, ul.nav a:visited { padding: 5px 5px 5px 15px; display: block; width: 160px;   text-decoration: none;  background: #C6D580;}
+ul.nav a:hover, ul.nav a:active, ul.nav a:focus { background: #ADB96E;  color: #000;}
+.fltrt {  float: right; margin-left: 8px;}
+.fltlft {   float: left;    margin-right: 8px;}
+.clearfloat {   clear:both; height:0;   font-size: 1px; line-height: 0px;}
+#menu
+{width:100%;
+float:left;
+}
+#myframe
+{
+	width:100%;
+	float:left;
+	height:700px;
+}
+	
+</style>
+<title>Gallery With Auto Captions</title>
+<link rel="shortcut icon" href=""/>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="helpers.js"></script>
+<link href="css/dropdown/themes/mtv.com/helper.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="css/dropdown/dropdown.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="css/dropdown/themes/mtv.com/default.ultimate.css" media="screen" rel="stylesheet" type="text/css" />
+
+<script>
+$(document).ready(function(){
+
+$("#myframe").load($(this).attr('href="mission.html"'));
+
+  $('a').click(function(e){
+     e.preventDefault();
+     $("#myframe").load($(this).attr('href'));
+  });
+  getFolderImages();
+});
+
+</script>
+</head>
+<body>
+<div id="topBar"><img src="logo.png" height="50%">&nbsp&nbsp&nbsp&nbsp<span font face="impact" class="hit-the-floor">Gallery</span>
+<br> <h5>S&nbsp&nbsp&nbsp o &nbsp&nbsp&nbsp E &nbsp&nbsp&nbsp a &nbsp&nbsp&nbsp s &nbsp&nbsp&nbsp y</h5>
+</div>
+
+<div id='menu'><span style="width:100%">
+<ul id="nav" class="dropdown dropdown-horizontal">
+	<li id="n-home"><a href="home.html">Home</a></li>
+	<li><span class="dir">About</span>
+		<ul>
+			<li><a href="mission.html">Mission</a></li>
+		</ul>
+	</li>
+	<li><span class="dir">Galleries</span>
+		<ul>
+			<li><a href="AutoCaption.html">Gallery1</a></li>
+			<li><a href="specimenGallery.html">Gallery2</a></li>
+		</ul>
+	</li>
+	
+	<li><a href="events.html">Events</a></li>
+	<li><a href="project.html">Featured Project</a></li>
+	<li><a href="contact.html">Contact</a></li>
+</ul>	
+</div>
+<div id="bodyDiv">
+    <div id="myframe" name="myframe" ><center><h1>Under Construction</h1></center></div> 	
+	</div>
+    <div id="cleared"></div>
+</div>		
+   
+</body></html>
