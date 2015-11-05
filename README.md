@@ -17,7 +17,7 @@ Features of the code:
 	7. Website template complete with fancy auto-sizing text and menus making it well suitable for various devices. 
 
 How to make it work:
-Add all files to a folder with the optional files for the menues (highly recommended). Create a subfolder called "Gallery" and put your images in it.  Give them names that correspond to the codes (Found in the ImageCodes.txt file).  You can add/change them in the helper.js file in the codeVals array. There are an additional 20 in the array waiting to be assigned values. 
+Add all files to a folder with the optional files for the menues (highly recommended). Create a subfolder called "Gallery" and put your (.jpg) images in it.  Give them names that correspond to the codes (Found in the ImageCodes.txt file).  You can add/change them in the helper.js file in the codeVals array. There are an additional 20 in the array waiting to be assigned values. 
 
 The css menus used to create this template site I got from here:  https://code.google.com/p/free-css-drop-down-menu-framework/downloads/detail?name=free-css-drop-down-menu_v1.3.zip&can=2&q=
 You can add the css folder to this to make it look pretty. All thelinks are built in to the code so you just need to place the folder in the root directory to make it work.
